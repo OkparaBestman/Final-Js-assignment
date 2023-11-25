@@ -1,0 +1,338 @@
+//html file
+
+<body>
+    <div>
+        <h1 style="b" class="title">Weather Checker Application</h1>
+        <header class="header">
+    <div class="header-left">
+        <img class="weather-icon-large" src="icons/cloud-solid.svg" data-current-icon/>
+        <div class="header-curent-temp">
+            <span>25</span>&deg;
+        </div>
+    </div>
+    <div class="header-right">
+        <div class="categories">
+            <div class="tags">High</div>
+            <div><span data-current-high>26</span>&deg;</div>
+        </div>
+        <div class="categories">
+            <div class="tags">FL High</div>
+            <div><span data-current-fl-high>6</span>&deg;</div>
+        </div>
+        <div class="categories">
+            <div class="tags">Wind</div>
+            <div><span data-current-wind>10</span><span class="value-mini-info">mph</span></div>
+        </div>
+        <div class="categories">
+            <div class="tags">Low</div>
+            <div><span data-current-low>30</span>&deg;</div>
+        </div>
+        <div class="categories">
+            <div class="tags">FL low</div>
+            <div><span data-current-fl-low>28</span>&deg;</div>
+        </div>
+        <div class="categories">
+            <div class="tags">Precip</div>
+            <div><span data-current-precip>0.1</span><span class="value-mini-info">in</span></div>
+        </div>
+    </div>
+        </header>
+
+        <section class="day-section" data-day-section>
+            <div class="day-card">
+            <img src="icons/cloud-solid.svg" class="weather-icon"/>
+            <div class="day-card-day">Friday</div>
+            <div>32&deg;</div>
+            </div>
+            <div class="day-card">
+                <img src="icons/cloud-solid.svg" class="weather-icon"/>
+                <div class="day-card-day">Saturday</div>
+                <div>32&deg;</div>
+                </div>
+            <div class="day-card">
+                <img src="icons/cloud-solid.svg" class="weather-icon"/>
+                <div class="day-card-day">Sunday</div>
+                <div>32&deg;</div>
+            </div>
+            <div class="day-card">
+                <img src="icons/cloud-solid.svg" class="weather-icon"/>
+                <div class="day-card-day">Tuesday</div>
+                <div>32&deg;</div>
+            </div>
+            <div class="day-card">
+                <img src="icons/cloud-solid.svg" class="weather-icon"/>
+                <div class="day-card-day">Wednessday</div>
+                <div>32&deg;</div>
+            </div>
+            <div class="day-card">
+                <img src="icons/cloud-solid.svg" class="weather-icon"/>
+                <div class="day-card-day">Thursday</div>
+                <div>32&deg;</div>
+            </div>
+        </section>
+        <table>
+        <div class="hour-section">
+            <tbody data-hour-section>
+            <tr class="hour-row">
+                <td>
+                    <div class="categories">
+                        <div class="tags">Friday</div>
+                        <div>4PM</div>
+                    </div>
+                </td>
+                <td>
+                    <img src="icons/cloud-solid.svg" alt="" class="weather-icon">
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Temp</div>
+                        <div>25&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">FL Temp</div>
+                        <div>27&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Wind</div>
+                        <div>29<span class="value-mini-info"></span>mph</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Precip</div>
+                        <div>0<span class="value-mini-info"></span>in</div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="hour-row">
+                <td>
+                    <div class="categories">
+                        <div class="tags">Friday</div>
+                        <div>4 PM</div>
+                    </div>
+                </td>
+                <td>
+                    <img src="icons/cloud-solid.svg" alt="" class="weather-icon">
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Temp</div>
+                        <div>25&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">FL Temp</div>
+                        <div>27&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Wind</div>
+                        <div>29<span class="value-mini-info"></span>mph</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Precip</div>
+                        <div>0<span class="value-mini-info"></span>in</div>
+                    </div>
+                </td>
+            </tr>
+            <tr class="hour-row">
+                <td>
+                    <div class="categories">
+                        <div class="tags">Friday</div>
+                        <div>4 PM</div>
+                    </div>
+                </td>
+                <td>
+                    <img src="icons/cloud-solid.svg" alt="" class="weather-icon">
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Temp</div>
+                        <div>25&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">FL Temp</div>
+                        <div>27&deg;</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Wind</div>
+                        <div>29<span class="value-mini-info"></span>mph</div>
+                    </div>
+                </td>
+                <td>
+                    <div class="categories">
+                        <div class="tags">Precip</div>
+                        <div>0<span class="value-mini-info"></span>in</div>
+                    </div>
+                </td>
+            </tr>
+        </div>
+    </div>
+</table>
+    <template id="day-card-template">
+        <div class="day-card">
+            <img data-icon class="weather-icon"/>
+            <div class="day-card-day" data-date></div>
+            <div><span data-temp><span>&deg;</span></span> </div>
+            </div>
+    </template>
+    <template id="hour-row-template">
+        <tr class="hour-row">
+            <td>
+                <div class="categories">
+                    <div class="tags" data-day></div>
+                    <div data-time></div>
+                </div>
+            </td>
+            <td>
+                <img data-icon class="weather-icon">
+            </td>
+            <td>
+                <div class="categories">
+                    <div ><span data-temp><span>&deg;</span></span></div>
+                </div>
+            </td>
+            <td>
+                <div class="categories">
+                    <div class="tags">FL Temp</div>
+                    <span data-fl-temp><span>&deg;</span></span>
+                </div>
+            </td>
+            <td>
+                <div class="categories">
+                    <div class="tags">Wind</div>
+                    <div>
+                        <span data-wind></span><span class="value-mini-info">mph</span>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="categories">
+                    <div class="tags">Precip</div>
+                    <div>
+                        <span data-pricip></span><span class="value-mini-info">in</span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </template>
+    <script src="./app.js"></script>
+</body>
+
+
+
+//class
+*, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(200,100%,85%);
+    color: hsl(200,100%,10%);
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: 4rem;
+    border-right: 2px solid hsl(200,100%,10%);
+}
+.weather-icon{
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+
+}
+.weather-icon-large{
+    width: 90px;
+    height: 90px;
+}
+
+.header-current-temp{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.header-right{
+    display: grid;
+    width:50% ;
+    justify-content: space-around;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tags{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.6rem;
+    color: hsl(200,100%,20%)
+}
+.value-mini-info{
+    font-weight: lighter;
+    font-size: .80rem;
+}
+.day-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 75px);
+    gap: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+}
+.day-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid hsl(200, 100%, 10%);
+    border-radius: 0.25;
+    padding: 0.25rem;
+}
+.day-card-day{
+    font-size: 0.75rem;
+    color: hsl(200,100%,20%);
+    margin-top: 0.5rem;
+}
+
+.hour-section{
+    display: grid;
+    grid-template-columns:3fr ;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    border-spacing: 0;
+}
+.hour-row{
+    background-color: hsl(200,60%,85%);
+}
+.hour-row:nth-child(2n){
+    background-color: hsl(200,60%,80%);
+}
+.hour-row > td{
+    padding:.25rem 0.5rem;
+}
+
+tbody{
+    display: flex;
+    flex-direction:row;
+}
